@@ -1,0 +1,41 @@
+{
+  "name": "github-pr-to-csv",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "start": "node src/index.js",
+    "start:1": "node src/index.js --p=1",
+    "start:2": "node src/index.js --p=2",
+    "start:3": "node src/index.js --p=3",
+    "start:4": "node src/index.js --p=4",
+    "start:5": "node src/index.js --p=5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deshanm/github-pr-to-csv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deshanm/github-pr-to-csv/issues"
+  },
+  "homepage": "https://github.com/deshanm/github-pr-to-csv#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "csv-writer": "^1.6.0",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1"
+  }
+}
